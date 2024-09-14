@@ -6,3 +6,131 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#green-logo {
+  width: 120px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  /**position: fixed;**/
+}
+
+#menu {
+  display: flex;
+  list-style-type: none;
+}
+
+#menu > li {
+  margin-right: 20px;
+}
+
+.section-1{
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+}
+
+.section-1 > div{
+    width: 80ch;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+}
+
+.section-1 p{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.section-2 h2{
+    align-self: center;
+    /* display: inline-block; */
+    font-size:25px;
+    margin: 0 auto;
+    text-decoration: underline #00B172;
+    text-align: center;
+    text-underline-offset: 7px;
+
+}
+
+.section-2{
+    padding: 30px;
+}
+
+#features{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+#features img {
+    height: 50px;
+    padding: 10px;
+
+}
+
+#features > li{
+    margin: 30px;
+    border: 1px solid coral;
+    text-align: center;
+    flex-basis: 210px;
+
+}
+
+.section-3{
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    color: white;
+}
+
+#white-logo{
+    width: 60px;
+    flex-grow: 0;
+}
+
+#Kanye{
+    width: 120px;
+}
+
+.section-3 ul{
+    list-style-type: none;
+}
+.section-3 li{
+    padding-bottom: 20px;
+}
+.section-3 h3,
+.section-3 p{
+
+}
+
+.section-3 h2{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    border-bottom: 3px solid #f9fafa;
+    
+}
